@@ -1,0 +1,10 @@
+
+
+SCENARIO: SampleTest
+META-DATA: {"description":"Sample Test Scenario","groups":["SMOKE"]}
+	
+	Given get '/'
+	When search for 'qaf github infostretch'
+	Then verify link with partial text 'qaf' is present
+END
+
