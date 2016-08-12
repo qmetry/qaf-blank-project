@@ -18,59 +18,5 @@
 	<dependencies>
 		<dependency org="com.infostretch" name="qaf" rev="2.1.7b" />
 		<dependency org="com.infostretch" name="qaf-support" rev="2.1.7b" />
-		<dependency org="commons-configuration" name="commons-configuration"
-			rev="1.7" />
-		<dependency org="commons-io" name="commons-io" rev="2.4" />
-		<dependency org="commons-lang" name="commons-lang" rev="2.6">
-			<artifact type="jar" name="commons-lang" />
-		</dependency>
-		<dependency org="commons-codec" name="commons-codec" rev="1.9" />
-		<dependency org="org.reflections" name="reflections" rev="0.9.9" />
-		<dependency org="org.hamcrest" name="hamcrest-all" rev="1.3" />
-
-		<dependency org="junit" name="junit" rev="4.12" />
-		<dependency org="org.testng" name="testng" rev="6.8.8">
-			<artifact name="testng" type="jar"></artifact>
-		</dependency>
-		<dependency org="xmlunit" name="xmlunit" rev="1.6" />
-		<dependency org="org.easytesting" name="fest-reflect" rev="1.4.1" />
-		<dependency org="sshtools" name="j2ssh-core" rev="0.2.9" />
-
-		<dependency org="net.sourceforge.jexcelapi" name="jxl" rev="2.6.12">
-			<artifact name="jxl" type="jar"></artifact>
-		</dependency>
-		<dependency org="commons-configuration" name="commons-configuration"
-			rev="1.7" conf="default" />
-		<dependency org="velocity" name="velocity-dep" rev="1.4"
-			conf="default" />
-		<dependency org="com.google.code.gson" name="gson" rev="2.5">
-			<artifact name="gson" type="jar"></artifact>
-		</dependency>
-		<dependency org="org.aspectj" name="aspectjrt" rev="1.8.5">
-			<artifact name="aspectjrt" type="jar"></artifact>
-		</dependency>
-		<dependency org="org.aspectj" name="aspectjweaver" rev="1.8.5">
-			<artifact name="aspectjweaver" type="jar"></artifact>
-		</dependency>
-		<dependency org="org.aspectj" name="aspectjtools" rev="1.8.5">
-			<artifact name="aspectjtools" type="jar"></artifact>
-		</dependency>
-
-		<dependency org="org.seleniumhq.selenium" name="selenium-remote-driver"
-			rev="2.53.0" />
-		<dependency org="org.seleniumhq.selenium" name="selenium-java"
-			rev="2.53.0" />
-		<dependency org="com.sun.jersey" name="jersey-core" rev="1.19" />
-		<dependency org="com.sun.jersey" name="jersey-client" rev="1.19" />
-		<dependency org="org.apache.httpcomponents" name="httpclient"
-			rev="4.4.1"></dependency>
-		<dependency org="com.sun.jersey.contribs" name="jersey-apache-client"
-			rev="1.19" />
-		<dependency org="org.xmlmatchers" name="xml-matchers" rev="1.0-RC1" />
-		<dependency org="org.json" name="json" rev="20131018" />
-		<dependency org="org.eclipse.equinox" name="org.eclipse.equinox.common"
-			rev="3.6.0.v20100503" />
-		<dependency org="com.google.guava" name="guava" rev="15.0" />
-		<dependency org="ant-contrib" name="ant-contrib" rev="1.0b3"/>
 	</dependencies>
 </ivy-module>
