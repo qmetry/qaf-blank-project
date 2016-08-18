@@ -18,5 +18,8 @@
 	<dependencies>
 		<dependency org="com.infostretch" name="qaf" rev="2.1.7b" />
 		<dependency org="com.infostretch" name="qaf-support" rev="2.1.7b" />
+		<dependency org="org.aspectj" name="aspectjtools" rev="1.8.5">
+			<artifact name="aspectjtools" type="jar"></artifact>
+		</dependency>
 	</dependencies>
 </ivy-module>
