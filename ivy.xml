@@ -12,12 +12,12 @@
 <ivy-module version="2.0"
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:noNamespaceSchemaLocation="http://ant.apache.org/ivy/schemas/ivy.xsd">
-	<info organisation="com.infostretch" module="QAF" status="integration">
+	<info organisation="com.qmetry" module="QAF" status="integration">
 	</info>
 
 	<dependencies>
-		<dependency org="com.infostretch" name="qaf" rev="2.1.7b" />
-		<dependency org="com.infostretch" name="qaf-support" rev="2.1.7b" />
+		<dependency org="com.qmetry" name="qaf" rev="2.1.7b" />
+		<dependency org="com.qmetry" name="qaf-support" rev="2.1.7b" />
 		<dependency org="org.aspectj" name="aspectjtools" rev="1.8.5">
 			<artifact name="aspectjtools" type="jar"></artifact>
 		</dependency>

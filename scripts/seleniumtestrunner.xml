@@ -176,12 +176,12 @@ For any inquiry or need additional information, please contact support-qaf@infos
 </target>
 
 <target name="generate-step-list" depends="make-jar">
-<java classname="com.infostretch.automation.step.JavaStepFinder" classpathref="build.classpath">
+<java classname="com.qmetry.qaf.automation.step.JavaStepFinder" classpathref="build.classpath">
 </java>
 </target>
 
 <target name="generate-step-xml" depends="make-jar">
-<java classname="com.infostretch.automation.step.client.TestStepExporter" classpathref="build.classpath">
+<java classname="com.qmetry.qaf.automation.step.client.TestStepExporter" classpathref="build.classpath">
 </java>
 
 
@@ -198,7 +198,7 @@ For any inquiry or need additional information, please contact support-qaf@infos
 </path>
 <echo>${execution.classpath}</echo>
 <taskdef resource="testngtasks" classpathref="execution.classpath" />
-<testng classpathref="execution.classpath" outputDir="${test.results.dir}/${run.time}" useDefaultListeners="true" listeners="org.testng.reporters.XMLReporter" methodselectors="com.infostretch.automation.testng.pro.QAFMethodSelector:1">
+<testng classpathref="execution.classpath" outputDir="${test.results.dir}/${run.time}" useDefaultListeners="true" listeners="org.testng.reporters.XMLReporter" methodselectors="com.qmetry.qaf.automation.testng.pro.QAFMethodSelector:1">
 	<xmlfileset dir="${test.conf.dir}" includes="${testng.suite.file}" />
 	<jvmarg value="-ea" />
 	<sysproperty key="org.uncommons.reportng.title" value="${testng.report.title}" />
@@ -229,7 +229,7 @@ For any inquiry or need additional information, please contact support-qaf@infos
 	</fileset>
 </path>
 <taskdef resource="testngtasks" classpathref="execution.classpath" />
-<testng classpathref="execution.classpath" outputDir="${output.dir}" useDefaultListeners="true" listeners="org.testng.reporters.XMLReporter" methodselectors="com.infostretch.automation.testng.pro.QAFMethodSelector:1">
+<testng classpathref="execution.classpath" outputDir="${output.dir}" useDefaultListeners="true" listeners="org.testng.reporters.XMLReporter" methodselectors="com.qmetry.qaf.automation.testng.pro.QAFMethodSelector:1">
 	<xmlfileset dir="${test.conf.dir}" includes="${testng.suite.file}" />
 	<xmlfileset file="${testng.suite.file}" erroronmissingdir="false" />
 	<jvmarg value="-ea" />

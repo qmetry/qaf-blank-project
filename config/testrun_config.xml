@@ -27,13 +27,13 @@ For any inquiry or need additional information, please contact support-qaf@infos
 
 	<test name="BDD Test" enabled="true">
 		<classes>
-			<class name="com.infostretch.automation.step.client.text.BDDTestFactory" />
+			<class name="com.qmetry.qaf.automation.step.client.text.BDDTestFactory" />
 		</classes>
 	</test>
 
 	<test name="KWD Test" enabled="false">
 		<classes>
-			<class name="com.infostretch.automation.step.client.csv.KwdTestFactory" />
+			<class name="com.qmetry.qaf.automation.step.client.csv.KwdTestFactory" />
 		</classes>
 	</test>
 
