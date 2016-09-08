@@ -21,5 +21,6 @@
 		<dependency org="org.aspectj" name="aspectjtools" rev="1.8.5">
 			<artifact name="aspectjtools" type="jar"></artifact>
 		</dependency>
+		<dependency org="ant-contrib" name="ant-contrib" rev="1.0b3"/>
 	</dependencies>
 </ivy-module>
