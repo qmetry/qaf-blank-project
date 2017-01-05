@@ -236,14 +236,13 @@ For any inquiry or need additional information, please contact support-qaf@infos
 	<sysproperty key="org.uncommons.reportng.title" value="${testng.report.title}" />
 	<sysproperty key="org.uncommons.reportng.xml-dialect" value="testng" />
 	<sysproperty key="org.uncommons.reportng.escape-output" value="false" />
-	<sysproperty key="log4j.configuration" value="file:///${lib.dir}/log4j.properties" />
 	<sysproperty key="outputDir" value="${output.dir}" />
 	<sysproperty key="test.results.dir" value="${output.dir}/html" />
 	<sysproperty key="json.report.root.dir" value="${test.results.dir}" />
 	<sysproperty key="json.report.dir" value="${output.dir}/json" />
 	<sysproperty key="selenium.screenshots.dir" value="${output.dir}/img" />
 	<sysproperty key="selenium.screenshots.relative.path" value="../img" />
-	<sysproperty key="log4j.configuration" value="file:///${lib.dir}/log4j.properties" />
+	<sysproperty key="log4j.configuration" value="file:///${basedir}/log4j.properties" />
 	<propertyset>
 		<propertyref builtin="commandline" />
 	</propertyset>
