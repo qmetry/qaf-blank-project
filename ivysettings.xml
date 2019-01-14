@@ -14,11 +14,9 @@
 	<resolvers>
 		<chain name="qaf">
 			<ibiblio name="central" m2compatible="true" />
-			<ibiblio name="QAF" m2compatible="true"
-				root="https://qmetry.github.io/qaf/dist" />
 			<ibiblio name="jai" m2compatible="true"
 				root="https://repository.jboss.org/nexus/content/repositories/thirdparty-releases" />
-				
+			<ibiblio name="nexus-snapshots" root="https://oss.sonatype.org/content/repositories/snapshots" m2compatible="true"/>
 		</chain>
 	</resolvers>
 </ivysettings>
